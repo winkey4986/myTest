@@ -2,6 +2,6 @@ git add
 git commit -m "hi"
 git status
 git remote add myTest git@github.com:winkey4986/myTest.git
-git push -u myTest master  µÚÒ»´Î
+git push -u myTest master  ç¬¬ä¸€æ¬¡
 git push myTest master
-git rm -rf "G:\\myGitWorkspace\\myTest" É¾³ıÍêÁË»¹Òªcommit
+git rm -rf "G:\\myGitWorkspace\\myTest" åˆ é™¤å®Œäº†è¿˜è¦commit
