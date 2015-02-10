@@ -1,21 +1,19 @@
 package com.myTest.webServiceTest;
 
 
+import org.apache.axis.client.Call;
+import org.apache.axis.client.Service;
+import org.apache.axis.encoding.ser.JAFDataHandlerDeserializerFactory;
+import org.apache.axis.encoding.ser.JAFDataHandlerSerializerFactory;
+
+import javax.activation.DataHandler;
+import javax.xml.namespace.QName;
+import javax.xml.rpc.ServiceException;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.rmi.RemoteException;
-import javax.activation.DataHandler;
-import javax.xml.namespace.QName;
-import javax.xml.rpc.ParameterMode;
-import javax.xml.rpc.ServiceException;
-
-import org.apache.axis.client.Call;
-import org.apache.axis.client.Service;
-import org.apache.axis.encoding.XMLType;
-import org.apache.axis.encoding.ser.JAFDataHandlerDeserializerFactory;
-import org.apache.axis.encoding.ser.JAFDataHandlerSerializerFactory;
 
 /**
  * Created by winkey on 15-2-10.
