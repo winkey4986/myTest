@@ -17,9 +17,10 @@ public class Hello {
     public String sayHello(){ 
         return "Hello World!"; 
     } 
-    public static void main(String[] args){ 
-        //½«WebService·¢²¼µ½Ö¸¶¨µØÖ·  
+    public static void main(String[] args){
+        //
+        //ï¿½ï¿½WebServiceï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½Ö·  
         Endpoint.publish("http://127.0.0.1:8888/WebServiceTest/Hello", new Hello());     
-        System.out.println("·¢²¼³É¹¦£¡");
+        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½É¹ï¿½ï¿½ï¿½");
     } 
 }
